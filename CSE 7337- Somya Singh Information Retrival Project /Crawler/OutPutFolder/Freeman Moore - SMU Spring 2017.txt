@@ -1,0 +1,50 @@
+<page_url href="http://lyle.smu.edu/~fmoore/"></page_url>
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<meta name="description" content="SMU web page for Freeman Moore, shows current teaching schedule Spring 2017.">
+<meta name="keywords" content="smu, fmoore, teaching, syllabus">
+<TITLE>Freeman Moore - SMU Spring 2017</TITLE>
+<!-- web page for SMU related information -->
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<TABLE BORDER="0" CELLSPACING="2" CELLPADDING="0" width="672">
+  <TR>
+    <TD WIDTH="100%">&nbsp;<a href="SMU-CSE-LOGO.gif"><img border="0" src="SMU-CSE-LOGO.gif" width="380" height="56"></A></TD>
+  </TR>
+  <TR>
+    <TD WIDTH="100%"><P><BR>
+        &nbsp;&nbsp;<b><font face="Arial" size="+1">Spring 2017</font></b></P>
+      <TABLE WIDTH="664" HEIGHT="131" BORDER="0" CELLSPACING="2"
+      CELLPADDING="10">
+        <TR>
+          <TD WIDTH="25%" VALIGN="TOP" HEIGHT="251"><P>Freeman L. Moore, PhD</P>
+            <P><B>email: </B><a href="mailto:fmoore@lyle.smu.edu">fmoore@lyle.smu.edu</a>&nbsp;&nbsp;&nbsp;</P>
+            <P><EM>.</EM>
+            <P>&nbsp;
+            <P><b>Fall 2016</b><br>
+              CSE 5330/7330</TD>
+          <TD WIDTH="75%" VALIGN="TOP" HEIGHT="251">
+             <p>Spring 2017 - Tuesday/Thursday 5:00 - 6:20 - Caruth 183</p>
+			 <blockquote>
+              <p><a href="CSE5337_syllabus.pdf">CSE 5337 Syllabus </a><BR>
+			  <a href="CSE7337_syllabus.pdf">CSE 7337 Syllabus </a></p>
+            </blockquote>
+			Keep looking at the tentative <a href="schedule.htm"> Course calendar</a>.
+			<P>All course information is in <A href="https://smu.instructure.com">Canvas</A>.
+
+</TD>
+        </TR>
+        <TR>
+          <TD WIDTH="100%" VALIGN="TOP" HEIGHT="126" colspan="2">&nbsp;
+            <p><i>The contents of this Web site are the sole 
+              responsibility of Dr. Freeman Moore and do not necessarily represent 
+              the opinions or policies of Southern Methodist University. The 
+              administrator of this site is Dr. Freeman Moore who may be contacted 
+              at fmoore@lyle.smu.edu<a href="dontgohere/badfile1.html">.</A></i></TD>
+        </TR>
+      </TABLE></TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>

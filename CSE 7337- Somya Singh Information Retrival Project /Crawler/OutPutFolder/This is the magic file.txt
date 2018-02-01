@@ -1,0 +1,8 @@
+<page_url href="http://lyle.smu.edu/~fmoore/misc/text/magictext.html"></page_url>
+<HTML><HEAD><TITLE>This is the magic file</TITLE></HEAD>
+<BODY>
+Magic shows up here and in the title.
+<P>
+brown	beige	tan	auburn
+</BODY>
+</HTML>

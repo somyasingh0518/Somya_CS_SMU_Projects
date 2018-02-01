@@ -1,0 +1,18 @@
+<page_url href="http://lyle.smu.edu/~fmoore/misc/useragent.html"></page_url>
+<!DOCTYPE html>
+<html><title>CSE 5337/7337 User-Agent</title>
+<body>
+ 
+
+<p id="demo"></p>
+This is the user-agent information received<P>
+<script>
+
+    var x = "User-agent header sent: " + navigator.userAgent;
+    document.getElementById("demo").innerHTML = x;
+
+</script>
+<P>
+If you are a crawler, did you define a unique name?
+</body>
+</html>

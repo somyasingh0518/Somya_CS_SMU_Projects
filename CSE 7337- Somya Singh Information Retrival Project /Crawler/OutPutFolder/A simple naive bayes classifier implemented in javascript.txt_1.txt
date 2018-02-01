@@ -1,0 +1,71 @@
+<page_url href="http://lyle.smu.edu/~fmoore/misc/bayes-poem.html"></page_url>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>A simple naive bayes classifier implemented in javascript</title>
+	<meta type="description" content="A simple Naive Bayes classifer demo for SMU CSE 5/7330 Spring 2016" >
+  <script type="text/javascript" src="bayes.js"></script>
+
+</head>
+<body onload="">
+  <h3>Training section</h3>
+  <p>These four areas contained four canned poems.  Two Frost and two Whitman.
+    They can be used to seed the classifier (for two classifications).</p>
+  <textarea rows="5" cols="60" id="ta0">
+Now close the windows and hush all the fields: If the trees must, let them silently toss; No bird is singing now, and if there is, Be it my loss.
+It will be long ere the marshes resume, I will be long ere the earliest bird: So close the windows and not hear the wind, But see all wind-stirred.
+
+ </textarea>
+  <button onclick="this.style.color='red'; teachAs('Frost',0);  ">Teach Frost-1</button>
+  <br>
+  <textarea rows="5" cols="60" id="ta1">
+Thereâs a patch of old snow in a corner That I should have guessed Was a blow-away paper the rain Had brought to rest.
+It is speckled with grime as if Small print overspread it, The news of a day Iâve forgottenâ If I ever read it.
+
+</textarea>
+  <button onclick="this.style.color='red'; teachAs('Frost',1);">Teach Frost-2</button>
+  <br>
+  <textarea rows="5" cols="60" id="ta2">
+Beginning my studies the first step pleasâd me so much, The mere fact consciousness, these forms, the power of motion, The least insect or animal, the senses, eyesight, love, The first step I say awed me and pleasâd me so much, I have hardly gone and hardly wishâd to go any farther, But stop and loiter all the time to sing it in ecstatic songs.
+
+  </textarea>
+  <button onclick="this.style.color='red'; teachAs('Whitman',2);">Teach Whitman-1</button>
+  <br>
+  <textarea rows="5" cols="60" id="ta3">
+Lo, the unbounded sea, On its breast a ship starting, spreading all sails, carrying even her moonsails. The pennant is flying aloft as she speeds she speeds so stately- below emulous waves press forward, They surround the ship with shining curving motions and foam.
+
+ </textarea>
+  <button onclick="this.style.color='red'; teachAs('Whitman',3);">Teach Whitman-2</button>
+  <br><br>
+  <p>Here you can put your own training text in with your own classification.</p>
+  Sample Frost: <BR>
+  Some say the world will end in fire, Some say in ice. From what Iâve tasted of desire I hold with those who favour fire. But if it had to perish twice, I think I know enough of hate To say that for destruction ice Is also great And would suffice.
+<P>
+    Sample Whiteman: <BR>
+I dreamâd in a dream I saw a city invincible to the attacks of the whole of the rest of the earth, I dreamâd that was the new city of Friends, Nothing was greater there than the quality of robust love, it led the rest, It was seen every hour in the actions of the men of that city, And in all their looks and words.
+<P>
+  <textarea rows="10" cols="60" id="ta4"></textarea>
+  <select name="cls" id="cls">
+        <option value="Frost" >Frost</option>
+        <option value="Whitman" >Whitman</option>
+        </select>
+  <button onclick="this.style.color='red'; teachAs(document.getElementById('cls').value,4);">Teach</button>
+  <br>
+
+  <h3>Guessing section</h3>
+  <p>Paste in some unseen text and see how well the classifier does.</p>
+  A sample to guess:<BR>
+A plow, they say, to plow the snow. They cannot mean to plant it, noâ Unless in bitterness to mock At having cultivated rock.
+
+  <P>
+  <textarea rows="5" cols="60" id="ta5"></textarea>
+  <button onclick="alert(guess(5));">Guess</button>
+  <br>
+  <br>
+  <p>The <a href="bayes.js">javascript code</a> used to perform the bayesian analysis.</p>
+  <P>Reference: http://www.dusbabek.org/~garyd/bayes/</P>
+</body>
+</html>

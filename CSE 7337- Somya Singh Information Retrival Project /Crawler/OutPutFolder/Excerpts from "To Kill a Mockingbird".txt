@@ -1,0 +1,17 @@
+<page_url href="http://lyle.smu.edu/~fmoore/misc/text/index.php"></page_url>
+<HTML><HEAD>
+<TITLE>Excerpts from "To Kill a Mockingbird"</TITLE>
+</head>
+<BODY>
+<H1>additional text files to support query implementation</H1>
+<UL>
+<LI><a href=mockingbird1.html>part 1</A></LI>
+<LI><a href=mockingbird2.html>part 2</A></LI>
+<LI><a href=mockingbird3.html>part 3</A></LI>
+<LI><a href=mockingbird4.html>part 4</A></LI>
+<LI><a href=mockingbird5.html>part 5</A></LI>
+<LI><a href=magictext.html>hocuspocus</A></LI>
+</UL>
+<P>
+Last Updated: May 06, 2017</BODY>
+</HTML>

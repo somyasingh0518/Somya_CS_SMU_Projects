@@ -1,0 +1,96 @@
+<page_url href="http://lyle.smu.edu/~fmoore/schedule.htm"></page_url>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>SMU CSE 5337/7337 Spring 2017 Schedule</title>
+<meta name="description" content="SMU CSE 5337/7337 Spring 2017 course schedule page, shows what is happening on a week by week basis">
+<meta name="keywords" content="smu, schedule, homework, reading, chapters, CSE5337, CSE7337">
+</head><body bgcolor="#ffffff">
+<h2>2017 Preliminary Schedule</h2>
+<p>This page is maintained as the latest schedule of content and activities.</p>
+<a href="index.htm"></A><a href="index_duplicate.htm"><a href="does_not_exist.htm"></A>
+<a href="misc/count_letters.txt"></A><a href="misc/count_letters_duplicate.txt"></A>
+<table height="727" cellspacing="2" cellpadding="0" width="73%" border="1">
+  <tbody>
+  <tr>
+    <td width="67" height="23"><b>Date</b></td>
+    <td width="566" height="23"><b>Topics</b></td>
+    <td width="317" height="23"><b>Activity</b></td></tr>
+  <tr>
+    <td valign="middle" width="67" height="40">Jan 24<BR>Jan 26</td>
+    <td width="566" height="40">Course overview, Introduction to IR (chpt 1)</td>
+    <td width="317" height="40">Hmwk 1 assigned, Google <a href="misc/google-and-or-example.jpg"> and-or </A> example</td></tr>
+  <tr>
+    <td width="67" height="42">Jan 31<BR>Feb 2</td>
+    <td width="566" height="42">Boolean Retrieval, Terms, Posting Lists (chpt 2)</td>
+    <td width="317" height="42">Hmwk 2 assigned, token <a href="misc/tokenizing_exercise.pdf"> exercise</A>, 
+<a href="misc/algorithm-1-7.pdf">algorithm-1-7</A></td></tr>
+  <tr>
+    <td width="67" height="42">Feb 7<BR>Feb 9</td>
+    <td width="566" height="42">The Web and crawling (chpt 19, 20)</td>
+    <td width="317" height="42">Hmwk 1 due, Jaccard <a href="misc/jaccard_example.pdf">example</A>, Mercator <a href="misc/mercator-article.pdf">article</A></td></tr>
+  <tr>
+    <td width="67" height="42">Feb 14<BR>Feb 16</td>
+    <td width="566" height="42">Building a Web Crawler, Wildcards and spelling errors (chpt 3)</td>
+    <td width="317" height="42">Hmwk 2 due, project 1 assigned, <a href="misc/levenshtein.html" target="_blank" >Levenshtein distance</A>,
+soundex <a href="http://www.gedpage.com/soundex.html" target="_blank" > online</a>, Porter Stemmer <a href="misc/porter_stemmer_example.html">online</A>, word 
+<a href="misc/word-morphing-puzzle.pdf">morphing</A></td></tr>
+  <tr>
+    <td width="67" height="42">Feb 21<BR>Feb 23</td>
+    <td width="566" height="42">Indexing (chpt 4), Index Compression (chpt 5)</td>
+    <td width="317" height="42">Hmwk 3 assigned, URL <a href="http://lyle.smu.edu/~fmoore/misc/urlexample1.htm">example</a>, example of <a href="http://lyle.smu.edu/~fmoore/this_aint_gonna_work.htm">bad link</td></tr>
+  <tr>
+    <td width="67" height="42">Feb 28<BR>Mar 2</td>
+    <td width="566" height="42">Scoring (vector space model) (chpt 6)</td>
+    <td width="317" height="42">doc <a href="misc/example-2017-03-02.xlsx">example</A></td></tr>
+  <tr>
+    <td width="67" height="42">Mar 7<BR>Mar 9</td>
+    <td width="566" height="42">catch up, review</td>
+    <td width="317" height="42">Exam I <STRONG>Caruth 147</STRONG>, Hmwk 3 due, Distance <a href=misc/exam1.html">exam1</A>, permuterm <a href="misc/permutermindex-example.jpg">example</A></td></tr>
+  <tr>
+    <td width="67" height="42"><strike>Mar 14<BR>Mar 16</strike></td>
+    <td width="566" height="42">No class: Spring Break</td>
+    <td width="317" height="42">&nbsp;</td></tr>
+  <tr>
+    <td width="67" height="31">Mar 21<BR>Mar 23</td>
+    <td width="566" height="31">Scoring (complete search model)  (chpt 7)</td>
+    <td width="317" height="31">Project 1 due, Hmwk 4 assigned, Excel <a href="misc/excel-examples.html">examples</A></td></tr>
+  <tr>
+    <td width="67" height="31">Mar 28<BR>Mar 30</td>
+    <td width="566" height="31">Evaluation in information retrieval (chpt 8)</td>
+    <td width="317" height="31">Relevance <a href="misc/activity-mar28.pdf">activity</A>, <a href=misc/useragent.html>user-agent</A></td></tr> 
+ <tr>
+    <td width="67" height="41">Apr 4<BR>Apr 6</td>
+    <td width="566" height="41">Relevance feedback and query expansion (chpt 9)</td>
+    <td width="317" height="41">Hmwk 4 due, Project 2 assigned, <a href=misc/sim_example.xlsx>sim_example.xlsx</A>, <a 
+	href="misc/roadmap-04-06-2017.jpg">roadmap</A>, <A href="misc/text/index.php">mockingbird text files</A></td></tr>
+  <tr>
+    <td width="67" height="37">Apr 11<BR>Apr 13</td>
+    <td width="566" height="37">Text Classification (chpt 13)</td>
+    <td width="317" height="37"> Hmwk 5 assigned, <a href="misc/seo_email.txt">SEO email</A>, <a href="misc/good_bad_page.htm">good-bad activity</A>, 
+             <a href="misc/bayes.html" >Naive Bayes</A></td></tr>
+  <tr>
+    <td width="67" height="42">Apr 18<BR>Apr 20</td>
+    <td width="566" height="42">Document Clustering (chpt 16, 17) </td>
+    <td width="317" height="42">Poem <a href="misc/poem-classification.pptx">classification</A> <a href=
+      "misc/bayes-poem.html">using Bayes</A> <a href="misc/poem-classification.xlsx"> and kmeans</A>,
+	  hierarchical <a href="http://www.wessa.net/rwasp_hierarchicalclustering.wasp">demo</A></td></tr>
+  <tr>
+    <td width="67" height="39">Apr 25<BR>Apr 27</td>
+    <td width="566" height="39">Link Analysis (chpt 21)</td>
+    <td width="317" height="39">Hmwk 5 due</td></tr>
+  <tr>
+    <td width="67" height="39">May 2<BR>May 4<br></td>
+    <td width="566" height="39">Vector space classification (chpt 14)</td>
+    <td width="317" height="39"> </td></tr>
+  <tr>
+    <td width="67" height="39"><strike>May 9</strike></td>
+    <td width="566" height="39">No class: Reading Day</td>
+    <td width="317" height="39">Project 2 due, <a href="signup.php">sign up</A> for an optional demostration time</td></tr>
+<tr>
+    <td width="67" height="39">May 16</td>
+    <td width="566" height="39">Exam II, Tuesday May 16, 2017  per
+	<a href="http://www.smu.edu/EnrollmentServices/Registrar/Enrollment/FinalExamSchedule/Spring2017">University schedule</a>&nbsp;
+	</td>
+    <td width="317" height="39">Exam II</td></tr>
+  </tbody></table>
+</body></html>

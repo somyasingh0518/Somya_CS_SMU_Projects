@@ -1,0 +1,12 @@
+<page_url href="http://lyle.smu.edu/~fmoore/misc/good_bad_page.htm"></page_url>
+<HTML>
+<HEAD><TITLE>Good looking - but bad technique</TITLE></HEAD>
+<BODY>
+<H1>What can you do to this page?</h1>
+How can you include text that is visible to the crawler, but not displayed to the user?
+<P>
+What can you do in the HEAD area?
+<P>
+Any techniques to employ in the body text?
+</BODY>
+</HTML>

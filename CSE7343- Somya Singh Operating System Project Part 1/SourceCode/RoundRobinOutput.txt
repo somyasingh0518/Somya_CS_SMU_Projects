@@ -1,0 +1,439 @@
+Time Quatam Q:2
+Allocating Job with PID 1 into Process List
+Allocating Job with PID 2 into Process List
+Allocating Job with PID 3 into Process List
+Allocating Job with PID 4 into Process List
+Allocating Job with PID 5 into Process List
+Jobs Ready: 
+Running Simulation
+
+*************************
+Fetching Job from Q
+ with PID 1
+
+CAMit Is Here:
+
+CAMit Is Here:NEW
+
+CAMit Is Here:NEW
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 2
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 2 Desired CPU Time (ms): 2 State: NEW Time Left: 2
+PID: 3 Desired CPU Time (ms): 8 State: NEW Time Left: 8
+PID: 4 Desired CPU Time (ms): 5 State: NEW Time Left: 5
+PID: 5 Desired CPU Time (ms): 10 State: NEW Time Left: 10
+PID: 1 Desired CPU Time (ms): 6 State: NEW Time Left: 6
+*************************
+Fetching Job from Q
+ with PID 2
+
+CAMit Is Here:
+
+CAMit Is Here:NEW
+
+CAMit Is Here:NEW
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 2
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 3 Desired CPU Time (ms): 8 State: NEW Time Left: 8
+PID: 4 Desired CPU Time (ms): 5 State: NEW Time Left: 5
+PID: 5 Desired CPU Time (ms): 10 State: NEW Time Left: 10
+PID: 1 Desired CPU Time (ms): 6 State: NEW Time Left: 6
+PID: 2 Desired CPU Time (ms): 2 State: NEW Time Left: 2
+*************************
+Fetching Job from Q
+ with PID 3
+Starting time:{3=1490934185067}
+Current Job Running:  PID: 3 State: RUNNING CPU Time (ms): 1 Desired CPU Time (ms): 8 Arrival Time (ms): 0 Priority:1
+intialing waiting2
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 2
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 4 Desired CPU Time (ms): 5 State: NEW Time Left: 5
+PID: 5 Desired CPU Time (ms): 10 State: NEW Time Left: 10
+PID: 1 Desired CPU Time (ms): 6 State: NEW Time Left: 6
+PID: 2 Desired CPU Time (ms): 2 State: NEW Time Left: 2
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 6
+*************************
+Fetching Job from Q
+ with PID 4
+Starting time:{3=1490934185067, 4=1490934185078}
+Current Job Running:  PID: 4 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 5 Arrival Time (ms): 2 Priority:3
+intialing waiting10
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 2
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 5 Desired CPU Time (ms): 10 State: NEW Time Left: 10
+PID: 1 Desired CPU Time (ms): 6 State: NEW Time Left: 6
+PID: 2 Desired CPU Time (ms): 2 State: NEW Time Left: 2
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 6
+PID: 4 Desired CPU Time (ms): 5 State: HALTED Time Left: 3
+*************************
+Fetching Job from Q
+ with PID 5
+Starting time:{3=1490934185067, 4=1490934185078, 5=1490934185084}
+Current Job Running:  PID: 5 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 10 Arrival Time (ms): 6 Priority:4
+intialing waiting12
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 2
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 1 Desired CPU Time (ms): 6 State: NEW Time Left: 6
+PID: 2 Desired CPU Time (ms): 2 State: NEW Time Left: 2
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 6
+PID: 4 Desired CPU Time (ms): 5 State: HALTED Time Left: 3
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 8
+*************************
+Fetching Job from Q
+ with PID 1
+Starting time:{1=1490934185096, 3=1490934185067, 4=1490934185078, 5=1490934185084}
+Current Job Running:  PID: 1 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 6 Arrival Time (ms): 8 Priority:2
+intialing waiting24
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 2
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 2 Desired CPU Time (ms): 2 State: NEW Time Left: 2
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 6
+PID: 4 Desired CPU Time (ms): 5 State: HALTED Time Left: 3
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 8
+PID: 1 Desired CPU Time (ms): 6 State: HALTED Time Left: 4
+*************************
+Fetching Job from Q
+ with PID 2
+Starting time:{1=1490934185096, 2=1490934185103, 3=1490934185067, 4=1490934185078, 5=1490934185084}
+Current Job Running:  PID: 2 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 2 Arrival Time (ms): 8 Priority:1
+intialing waiting29
+Final Time:{2=1490934185105}
+Job is Done: PID 2
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 6
+PID: 4 Desired CPU Time (ms): 5 State: HALTED Time Left: 3
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 8
+PID: 1 Desired CPU Time (ms): 6 State: HALTED Time Left: 4
+*************************
+Fetching Job from Q
+ with PID 3
+Starting time:{1=1490934185096, 2=1490934185103, 3=1490934185106, 4=1490934185078, 5=1490934185084}
+Current Job Running:  PID: 3 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 8 Arrival Time (ms): 0 Priority:1
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 4 Desired CPU Time (ms): 5 State: HALTED Time Left: 3
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 8
+PID: 1 Desired CPU Time (ms): 6 State: HALTED Time Left: 4
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 4
+*************************
+Fetching Job from Q
+ with PID 4
+Starting time:{1=1490934185096, 2=1490934185103, 3=1490934185106, 4=1490934185116, 5=1490934185084}
+Current Job Running:  PID: 4 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 5 Arrival Time (ms): 2 Priority:3
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 8
+PID: 1 Desired CPU Time (ms): 6 State: HALTED Time Left: 4
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 4
+PID: 4 Desired CPU Time (ms): 5 State: HALTED Time Left: 1
+*************************
+Fetching Job from Q
+ with PID 5
+Starting time:{1=1490934185096, 2=1490934185103, 3=1490934185106, 4=1490934185116, 5=1490934185123}
+Current Job Running:  PID: 5 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 10 Arrival Time (ms): 6 Priority:4
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 1 Desired CPU Time (ms): 6 State: HALTED Time Left: 4
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 4
+PID: 4 Desired CPU Time (ms): 5 State: HALTED Time Left: 1
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 6
+*************************
+Fetching Job from Q
+ with PID 1
+Starting time:{1=1490934185135, 2=1490934185103, 3=1490934185106, 4=1490934185116, 5=1490934185123}
+Current Job Running:  PID: 1 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 6 Arrival Time (ms): 8 Priority:2
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 4
+PID: 4 Desired CPU Time (ms): 5 State: HALTED Time Left: 1
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 6
+PID: 1 Desired CPU Time (ms): 6 State: HALTED Time Left: 2
+*************************
+Fetching Job from Q
+ with PID 3
+Starting time:{1=1490934185135, 2=1490934185103, 3=1490934185143, 4=1490934185116, 5=1490934185123}
+Current Job Running:  PID: 3 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 8 Arrival Time (ms): 0 Priority:1
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 4 Desired CPU Time (ms): 5 State: HALTED Time Left: 1
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 6
+PID: 1 Desired CPU Time (ms): 6 State: HALTED Time Left: 2
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 2
+*************************
+Fetching Job from Q
+ with PID 4
+Starting time:{1=1490934185135, 2=1490934185103, 3=1490934185143, 4=1490934185152, 5=1490934185123}
+Current Job Running:  PID: 4 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 5 Arrival Time (ms): 2 Priority:3
+Final Time:{2=1490934185105, 4=1490934185158}
+Job is Done: PID 4
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 3
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 6
+PID: 1 Desired CPU Time (ms): 6 State: HALTED Time Left: 2
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 2
+*************************
+Fetching Job from Q
+ with PID 5
+Starting time:{1=1490934185135, 2=1490934185103, 3=1490934185143, 4=1490934185152, 5=1490934185158}
+Current Job Running:  PID: 5 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 10 Arrival Time (ms): 6 Priority:4
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 3
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 1 Desired CPU Time (ms): 6 State: HALTED Time Left: 2
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 2
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 4
+*************************
+Fetching Job from Q
+ with PID 1
+Starting time:{1=1490934185171, 2=1490934185103, 3=1490934185143, 4=1490934185152, 5=1490934185158}
+Current Job Running:  PID: 1 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 6 Arrival Time (ms): 8 Priority:2
+Final Time:{1=1490934185177, 2=1490934185105, 4=1490934185158}
+Job is Done: PID 1
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 3
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 3 Desired CPU Time (ms): 8 State: HALTED Time Left: 2
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 4
+*************************
+Fetching Job from Q
+ with PID 3
+Starting time:{1=1490934185171, 2=1490934185103, 3=1490934185178, 4=1490934185152, 5=1490934185158}
+Current Job Running:  PID: 3 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 8 Arrival Time (ms): 0 Priority:1
+Final Time:{1=1490934185177, 2=1490934185105, 3=1490934185187, 4=1490934185158}
+Job is Done: PID 3
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 4
+*************************
+Fetching Job from Q
+ with PID 5
+Starting time:{1=1490934185171, 2=1490934185103, 3=1490934185178, 4=1490934185152, 5=1490934185187}
+Current Job Running:  PID: 5 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 10 Arrival Time (ms): 6 Priority:4
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+PID: 5 Desired CPU Time (ms): 10 State: HALTED Time Left: 2
+*************************
+Fetching Job from Q
+ with PID 5
+Starting time:{1=1490934185171, 2=1490934185103, 3=1490934185178, 4=1490934185152, 5=1490934185200}
+Current Job Running:  PID: 5 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 10 Arrival Time (ms): 6 Priority:4
+Final Time:{1=1490934185177, 2=1490934185105, 3=1490934185187, 4=1490934185158, 5=1490934185212}
+Job is Done: PID 5
+Current State of the CPU: 
+*************************
+List of processes:
+*************************
+Current Process Queue:
+Scheduler using RoundRobinQueue Type Queue Structure
+Time Quantum: 2
+Printing Queue:
+Empty Queue
+*************************
+Fetching Job from Q
+No More Jobs on Queue. Exiting Simulation
+
+CPU Stats:
+***********CPU STATS***********
+Hash Table Entry
+PID: 1 & START TIME: 1490934185171
+PID: 2 & START TIME: 1490934185103
+PID: 3 & START TIME: 1490934185178
+PID: 4 & START TIME: 1490934185152
+PID: 5 & START TIME: 1490934185200
+PID: 1 & FINAL TIME: 1490934185177
+PID: 2 & FINAL TIME: 1490934185105
+PID: 3 & FINAL TIME: 1490934185187
+PID: 4 & FINAL TIME: 1490934185158
+PID: 5 & FINAL TIME: 1490934185212
+**************************************GANTT CHART**************************************
+PID: 1	| StartTime: 1490934185171	| FinalTime: 1490934185177	|
+*********************
+PID: 1	| Waiting Time: 24	|
+**************************************GANTT CHART**************************************
+PID: 2	| StartTime: 1490934185103	| FinalTime: 1490934185105	|
+*********************
+PID: 2	| Waiting Time: 29	|
+**************************************GANTT CHART**************************************
+PID: 3	| StartTime: 1490934185178	| FinalTime: 1490934185187	|
+*********************
+PID: 3	| Waiting Time: 2	|
+**************************************GANTT CHART**************************************
+PID: 4	| StartTime: 1490934185152	| FinalTime: 1490934185158	|
+*********************
+PID: 4	| Waiting Time: 10	|
+**************************************GANTT CHART**************************************
+PID: 5	| StartTime: 1490934185200	| FinalTime: 1490934185212	|
+*********************
+PID: 5	| Waiting Time: 12	|
+*********************
+FINAL_REPORT_START
+*********************
+The Scheduling Algorithm Used :ROUND ROBIN
+Average Waiting Time: 15
+*********************
+FINAL_REPORT_END

@@ -1,0 +1,174 @@
+Allocating Job with PID 1 into Process List
+Allocating Job with PID 2 into Process List
+Allocating Job with PID 3 into Process List
+Allocating Job with PID 4 into Process List
+Allocating Job with PID 5 into Process List
+Jobs Ready: 
+Running Simulation
+
+*************************
+Fetching Job from Q
+ with PID 2
+
+CAMit Is Here:
+
+CAMit Is Here:NEW
+
+CAMit Is Here:NEW
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 2
+PID: 3
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using PriorityQueue Type Queue Structure
+Pre-Emptive: false
+Printing Queue:
+PID: 3 State: NEW Desired CPU Time (ms): 8 Priority: 1
+PID: 2 State: NEW Desired CPU Time (ms): 2 Priority: 1
+PID: 1 State: NEW Desired CPU Time (ms): 6 Priority: 2
+PID: 4 State: NEW Desired CPU Time (ms): 5 Priority: 3
+PID: 5 State: NEW Desired CPU Time (ms): 10 Priority: 4
+*************************
+Fetching Job from Q
+ with PID 3
+Starting time:{3=1490934190714}
+Current Job Running:  PID: 3 State: RUNNING CPU Time (ms): 1 Desired CPU Time (ms): 8 Arrival Time (ms): 0 Priority:1
+Final Time:{3=1490934190725}
+Job is Done: PID 3
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 2
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using PriorityQueue Type Queue Structure
+Pre-Emptive: false
+Printing Queue:
+PID: 2 State: NEW Desired CPU Time (ms): 2 Priority: 1
+PID: 1 State: NEW Desired CPU Time (ms): 6 Priority: 2
+PID: 4 State: NEW Desired CPU Time (ms): 5 Priority: 3
+PID: 5 State: NEW Desired CPU Time (ms): 10 Priority: 4
+*************************
+Fetching Job from Q
+ with PID 2
+Starting time:{2=1490934190726, 3=1490934190714}
+Current Job Running:  PID: 2 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 2 Arrival Time (ms): 8 Priority:1
+Final Time:{2=1490934190728, 3=1490934190725}
+Job is Done: PID 2
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 1
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using PriorityQueue Type Queue Structure
+Pre-Emptive: false
+Printing Queue:
+PID: 1 State: NEW Desired CPU Time (ms): 6 Priority: 2
+PID: 4 State: NEW Desired CPU Time (ms): 5 Priority: 3
+PID: 5 State: NEW Desired CPU Time (ms): 10 Priority: 4
+*************************
+Fetching Job from Q
+ with PID 1
+Starting time:{1=1490934190728, 2=1490934190726, 3=1490934190714}
+Current Job Running:  PID: 1 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 6 Arrival Time (ms): 8 Priority:2
+Final Time:{1=1490934190735, 2=1490934190728, 3=1490934190725}
+Job is Done: PID 1
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 4
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using PriorityQueue Type Queue Structure
+Pre-Emptive: false
+Printing Queue:
+PID: 4 State: NEW Desired CPU Time (ms): 5 Priority: 3
+PID: 5 State: NEW Desired CPU Time (ms): 10 Priority: 4
+*************************
+Fetching Job from Q
+ with PID 4
+Starting time:{1=1490934190728, 2=1490934190726, 3=1490934190714, 4=1490934190735}
+Current Job Running:  PID: 4 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 5 Arrival Time (ms): 2 Priority:3
+Final Time:{1=1490934190735, 2=1490934190728, 3=1490934190725, 4=1490934190741}
+Job is Done: PID 4
+Current State of the CPU: 
+*************************
+List of processes:
+PID: 5
+*************************
+Current Process Queue:
+Scheduler using PriorityQueue Type Queue Structure
+Pre-Emptive: false
+Printing Queue:
+PID: 5 State: NEW Desired CPU Time (ms): 10 Priority: 4
+*************************
+Fetching Job from Q
+ with PID 5
+Starting time:{1=1490934190728, 2=1490934190726, 3=1490934190714, 4=1490934190735, 5=1490934190742}
+Current Job Running:  PID: 5 State: RUNNING CPU Time (ms): 0 Desired CPU Time (ms): 10 Arrival Time (ms): 6 Priority:4
+Final Time:{1=1490934190735, 2=1490934190728, 3=1490934190725, 4=1490934190741, 5=1490934190754}
+Job is Done: PID 5
+Current State of the CPU: 
+*************************
+List of processes:
+*************************
+Current Process Queue:
+Scheduler using PriorityQueue Type Queue Structure
+Pre-Emptive: false
+Printing Queue:
+*************************
+Fetching Job from Q
+No More Jobs on Queue. Exiting Simulation
+
+CPU Stats:
+***********CPU STATS***********
+Hash Table Entry
+PID: 1 & START TIME: 1490934190728
+PID: 2 & START TIME: 1490934190726
+PID: 3 & START TIME: 1490934190714
+PID: 4 & START TIME: 1490934190735
+PID: 5 & START TIME: 1490934190742
+PID: 1 & FINAL TIME: 1490934190735
+PID: 2 & FINAL TIME: 1490934190728
+PID: 3 & FINAL TIME: 1490934190725
+PID: 4 & FINAL TIME: 1490934190741
+PID: 5 & FINAL TIME: 1490934190754
+**************************************GANTT CHART**************************************
+PID: 1	| StartTime: 1490934190728	| FinalTime: 1490934190735	|
+*********************
+PID: 1	| Waiting Time: 9	|
+**************************************GANTT CHART**************************************
+PID: 2	| StartTime: 1490934190726	| FinalTime: 1490934190728	|
+*********************
+PID: 2	| Waiting Time: 5	|
+**************************************GANTT CHART**************************************
+PID: 3	| StartTime: 1490934190714	| FinalTime: 1490934190725	|
+*********************
+PID: 3	| Waiting Time: 2	|
+**************************************GANTT CHART**************************************
+PID: 4	| StartTime: 1490934190735	| FinalTime: 1490934190741	|
+*********************
+PID: 4	| Waiting Time: 20	|
+**************************************GANTT CHART**************************************
+PID: 5	| StartTime: 1490934190742	| FinalTime: 1490934190754	|
+*********************
+PID: 5	| Waiting Time: 23	|
+*********************
+FINAL_REPORT_START
+*********************
+The Scheduling Algorithm Used :PRIORITY
+Average Waiting Time: 11
+*********************
+FINAL_REPORT_END

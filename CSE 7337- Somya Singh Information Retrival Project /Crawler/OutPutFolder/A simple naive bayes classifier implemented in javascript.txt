@@ -1,0 +1,64 @@
+<page_url href="http://lyle.smu.edu/~fmoore/misc/bayes.html"></page_url>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>A simple naive bayes classifier implemented in javascript</title>
+	<meta type="description" content="A simple Naive Bayes classifer demo for SMU CSE 5/7330 Spring 2016" >
+  <script type="text/javascript" src="bayes.js"></script>
+
+</head>
+<body onload="">
+  <h3>Training section</h3>
+  <p>These four areas contained four canned paragraphs.  Two Spanish and two French.
+    They can be used to seed the classifier (for two classifications).</p>
+  <textarea rows="5" cols="60" id="ta0">
+Alicia empezaba a cansarse muy sentada junto a su hermana en la orilla y de no tener nada que hacer: una o dos veces ella habÃ­a mirÃ³ en el libro que estaba leyendo su hermana, pero no tenÃ­a fotos o conversaciones en Ã©l, 'y Â¿quÃ© es el uso de un libro,' pensamiento Alicia 'sin imÃ¡genes o conversaciones?'
+ </textarea>
+  <button onclick="this.style.color='red'; teachAs('Spanish',0);  ">Teach Spanish</button>
+  <br>
+  <textarea rows="5" cols="60" id="ta1">
+No habÃ­a nada tan  muy notable en eso; ni lo hizo Alice creo que lo  muy mucho hasta escuchar el conejo dice a sÃ­ mismo, "Oh Estimado! Oh Estimado! Voy a ser tarde!' (cuando ella pensÃ³ en luego, ocurriÃ³ a ella que ella deberÃ­a han preguntado esto, pero al tiempo todo parecÃ­a absolutamente natural); pero cuando el conejo realmente  tomÃ³ un reloj del bolsillo de su chaleco, y mirÃ³ y luego se apresurÃ³ en, Alice comenzÃ³ a sus pies, para que brillÃ³ a travÃ©s de su mente que nunca antes habÃ­a visto un conejo con un bolsillo de chaleco, o un reloj para sacar de ella, y quema con curiosidad, corriÃ³ por el campo despuÃ©s de que y por suerte fue justo a tiempo para verlo pop abajo un agujero del conejo grande debajo del seto.
+</textarea>
+  <button onclick="this.style.color='red'; teachAs('Spanish',1);">Teach Spanish</button>
+  <br>
+  <textarea rows="5" cols="60" id="ta2">
+  Alice commenÃ§ait Ã  Ãªtre trÃ¨s fatiguÃ© d'Ãªtre assis par sa sÅur sur la rive et de n'avoir rien Ã  faire : une ou deux fois elle avait regarda dans le livre que lisait sa soeur, mais il n'avait aucun photos ou des conversations en elle, Â« et quelle est l'utilitÃ© d'un livre, Â» pensa Alice "sans images ni conversations?"
+  </textarea>
+  <button onclick="this.style.color='red'; teachAs('French',2);">Teach French</button>
+  <br>
+  <textarea rows="5" cols="60" id="ta3">
+Il n'y avait rien de si  trÃ¨s remarquables en ce que ; ni Alice le pense il  trÃ¨s une grande partie de la route d'entendre le lapin dire Ã  lui-mÃªme, Â« Oh cher ! Oh dear ! Je vais Ãªtre en retard! " (elle a pensÃ© qu'il plus par la suite, elle s'est produite lors lui elle devait avez-vous demandÃ© Ã  ce qu'au moment oÃ¹ tout semblait tout Ã  fait naturel) ; mais quand le lapin en fait  a eu une montre de sa poche de gilet, et le regarda et puis se prÃ©cipita sur, Alice a commencÃ© Ã  ses pieds, car il a flashÃ© sur son esprit qu'elle n'avait jamais vu un lapin avec une poche de gilet, ou une montre pour qu'elle hors de lui, et gravure avec curiositÃ©, elle a couru Ã  travers le champ, aprÃ¨s qu'il et a Ã©tÃ© heureusement juste Ã  temps pour le voir pop dans un grand trou de lapin sous la haie.
+ </textarea>
+  <button onclick="this.style.color='red'; teachAs('French',3);">Teach French</button>
+  <br><br>
+  <p>Here you can put your own training text in with your own classification.</p>
+  Sample Spanish: <BR>
+  AsÃ­ ella fue pensando en su propia mente (asÃ­ como podÃ­a, para el dÃ­a caluroso la hacÃ­a sentir muy somnoliento y tonto), si el placer de hacer una cadena de Margarita es vale la pena levantarse y recoger las margaritas, cuando de pronto un conejo blanco con ojos rosados funcionaron cerca por ella.<P>
+    Sample French: <BR>
+Alors qu'elle examinait dans son propre esprit (ainsi qu'elle a pu, pour la journÃ©e chaude lui a fait sentir trÃ¨s somnolent et stupide), si le plaisir de faire une guirlande serait la peine de se lever et de ramasser les marguerites, quand tout Ã  coup un lapin blanc aux yeux roses couru Ã©troite par elle.<P>
+  <textarea rows="10" cols="60" id="ta4"></textarea>
+  <select name="cls" id="cls">
+        <option value="Spanish" >Spanish</option>
+        <option value="French" >French</option>
+        </select>
+  <button onclick="this.style.color='red'; teachAs(document.getElementById('cls').value,4);">Teach</button>
+  <br>
+
+  <h3>Guessing section</h3>
+  <p>Paste in some unseen text and see how well the classifier does.</p>
+  Two samples to guess:<BR>
+  En otro momento abajo fue a Alice despuÃ©s de Ã©l, ni una sola vez teniendo en cuenta cÃ³mo el mundo iba a salir.
+  <P>
+  Dans un autre moment bas suivit Alice, jamais vu comment elle Ã©tait dans le monde de sortir Ã  nouveau.
+  <P>
+  <textarea rows="5" cols="60" id="ta5"></textarea>
+  <button onclick="alert(guess(5));">Guess</button>
+  <br>
+  <br>
+  <p>The <a href="bayes.js">javascript code</a> used to perform the bayesian analysis.</p>
+  <P>Reference: http://www.dusbabek.org/~garyd/bayes/</P>
+</body>
+</html>

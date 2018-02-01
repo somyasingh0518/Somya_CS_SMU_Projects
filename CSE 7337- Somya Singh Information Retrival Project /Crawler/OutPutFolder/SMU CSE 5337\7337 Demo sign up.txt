@@ -1,0 +1,42 @@
+<page_url href="http://lyle.smu.edu/~fmoore/signup.php"></page_url>
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>SMU CSE 5337/7337 Demo sign up</title>
+
+</head>
+<body>
+
+<h1>SMU Spring 2017 CSE 5337/7337 demo sign up</h1>
+Final project grading requires:
+<UL>
+<LI>a dump of your software and directions how to install it, <BR>or
+<LI>reserve a time slot when you and I can jointly run your project, located around Caruth 147.
+</UL>
+<P>
+<table border="1" >
+	<tr>
+	<td> </td><td> Person </td><td> Day Time </td>
+	</tr>
+<tr><!-- idnum = 47210934 --><td>1</TD><td>Chen, Shiqu</td><td>Tuesday May 9 @ 1:30 pm</td></tr>
+<tr><!-- idnum = 40295480 --><td>2</TD><td>Siems, Travis</td><td>Tuesday May 9 @ 1:40 pm</td></tr>
+<tr><!-- idnum = 47293718 --><td>3</TD><td>Byreddy, Nikhila</td><td>Tuesday May 9 @ 2:00 pm</td></tr>
+<tr><!-- idnum = 45138825 --><td>4</TD><td>Wang, Simin</td><td>Tuesday May 9 @ 2:40 pm</td></tr>
+<tr><!-- idnum = 47125849 --><td>5</TD><td>Zuchovicki, Eric</td><td>Tuesday May 9 @ 3:00 pm</td></tr>
+<tr><!-- idnum = 47130438 --><td>6</TD><td>Cardenas-Oliveros, Pablo</td><td>Tuesday May 9 @ 3:10 pm</td></tr>
+<tr><!-- idnum = 38337602 --><td>7</TD><td>Lewis, Clay</td><td>Tuesday May 9 @ 3:30 pm</td></tr>
+<tr><!-- idnum = 47238078 --><td>8</TD><td>Yu, Hongning</td><td>Tuesday May 9 @ 3:40 pm</td></tr>
+<tr><!-- idnum = 47219033 --><td>9</TD><td>Yang, Yiwen</td><td>Tuesday May 9 @ 4:30 pm</td></tr>
+<tr><!-- idnum = 40655554 --><td>10</TD><td>Antonelli, Nick</td><td>Tuesday May 9 @ 5:00 pm</td></tr>
+<tr><!-- idnum = 41184082 --><td>11</TD><td>Kirkpatrick, Tyler</td><td>Tuesday May 9 @ 5:10 pm</td></tr>
+<tr><!-- idnum = 37046624 --><td>12</TD><td>Dhanani, Naveed</td><td>Tuesday May 9 @ 5:20 pm</td></tr>
+<tr><!-- idnum = 39996740 --><td>13</TD><td>Brittain, Denver</td><td>Tuesday May 9 @ 5:30 pm</td></tr>
+<tr><!-- idnum = 42011246 --><td>14</TD><td>Hegarty, Katie</td><td>Tuesday May 9 @ 5:40 pm</td></tr>
+<form name='useradd' method='post' action='?action=addnew' ><tr><td> </td><td><select name='sname' ><option value='bad'>select name</option><option value='46938532'>Bansal, Alpna</option><option value='45238613'>Devale, Tejashree Mohan</option><option value='46911479'>Dharulkar, Radhika</option><option value='46759925'>Dibi, Gladman</option><option value='38006089'>Edson, Ryan</option><option value='39666293'>Elsabrouty, Mohamed</option><option value='37352150'>Ferrante, Avery</option><option value='40489089'>Green, Christian</option><option value='43984061'>Laguna, Arturo</option><option value='47197102'>Li, Gaole</option><option value='34869280'>Miller, Jayce</option><option value='42097930'>Mullin, John</option><option value='42642877'>Pascoe, Janie</option><option value='34453956'>Phanekham, Derek</option><option value='40061870'>Sanghavi, Rupal</option><option value='46916705'>Shah, Darshan</option><option value='47304053'>Singh, Somya</option><option value='47317807'>Surawashi, Anuja Rajendra</option><option value='46988803'>Tambaoga, Lloyd</option><option value='33643614'>Tighe, Preston</option><option value='47221529'>Wan, Yao</option><option value='47211610'>Xu, Weijun</option></select></td><td><select name='stime' ><option value='bad'>select day-time</option><option value='Tuesday May 9 @ 2:10 pm'>Tuesday May 9 @ 2:10 pm</option><option value='Tuesday May 9 @ 2:20 pm'>Tuesday May 9 @ 2:20 pm</option><option value='Tuesday May 9 @ 2:30 pm'>Tuesday May 9 @ 2:30 pm</option><option value='Tuesday May 9 @ 3:20 pm'>Tuesday May 9 @ 3:20 pm</option><option value='Tuesday May 9 @ 4:00 pm'>Tuesday May 9 @ 4:00 pm</option><option value='Tuesday May 9 @ 4:10 pm'>Tuesday May 9 @ 4:10 pm</option><option value='Tuesday May 9 @ 4:20 pm'>Tuesday May 9 @ 4:20 pm</option><option value='Tuesday May 9 @ 4:40 pm'>Tuesday May 9 @ 4:40 pm</option></select></td></tr><tr><td> </td><td> </td><td><input type=submit></td></tr></form></table> <P>&nbsp;
+ <P>&nbsp;
+Contact <a href="mailto:fmoore@lyle.smu.edu">Freeman Moore</A> if any corrections need to be made.
+</body>
+
+</html>

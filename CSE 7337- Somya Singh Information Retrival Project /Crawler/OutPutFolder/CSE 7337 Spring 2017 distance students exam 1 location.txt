@@ -1,0 +1,26 @@
+<page_url href="http://lyle.smu.edu/~fmoore/misc/exam1.html"></page_url>
+<html><head>
+<title>CSE 7337 Spring 2017 distance students exam 1 location</TITLE>
+</head>
+<body>
+<h1>CSE 7337 Distance student exam 1 location</h1>
+<table>
+<TR><TD>Number</TD><td>Person</TD><td>Location</td><TD>Request date</TD></TR>
+<TR><TD>1</TD><td>Surawashi, Anuja </TD><td>inclass</TD><TD>2/9/2017  10:43:00 AM</TD></TR>
+<TR><TD>2</TD><td>Wang, Simin</TD><td>inclass</TD><TD>2/23/2017  6:21:00 PM</TD></TR>
+<TR><TD>3</TD><td>Siems, Travis</TD><td>inclass</TD><TD>2/24/2017  2:50:00 PM</TD></TR>
+<TR><TD>4</TD><td>Phanekham, Derek</TD><td>inclass</TD><TD>2/26/2017  2:48:00 AM</TD></TR>
+<TR><TD>5</TD><td>Pascoe, Janie</TD><td>inclass</TD><TD>2/28/2017 11:05 AM</TD></TR>
+<TR><TD>6</TD><td>Dibi, Gladman</TD><td>inclass</TD><TD>37/2017 1:35 PM</TD></TR>
+<TR><TD>7</TD><td>Devale, Tejashree </TD><td>inclass</TD><TD>3/7/2017 5:25 PM</TD></TR>
+<TR><TD>8</TD><td>Bansal, Alpna</TD><td>proctor</TD><TD>3/7/2017 11:38 AM </TD></TR>
+<TR><TD>9</TD><td>Wan, Yao</TD><td>inclass</TD><TD>3/8/2017 1:30 PM</TD></TR>
+<TR><TD>10</TD><td>Chen, Yichu</TD><td>proctor</TD><TD> </TD></TR>
+
+<TR><TD>11</TD><td>Elsabrouty, Mohamed</TD><td>proctor</TD><TD> </TD></TR>
+<TR><TD>12</TD><td>Miller, Jayce</TD><td>proctor</TD><TD> </TD></TR>
+<TR><TD>13</TD><td>Tambaoga, Lloyd</TD><td>proctor</TD><TD> </TD></TR>
+
+</table>
+</body>
+</html>
